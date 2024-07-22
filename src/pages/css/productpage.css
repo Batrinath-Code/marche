@@ -1,3 +1,6 @@
+.product-functions {
+  overflow: hidden;
+}
 .product-main {
   display: flex;
   padding: 0px 64px;
@@ -317,9 +320,9 @@
     width: 98%;
   }
 
-  /* .functional-desc .content-img img {
+  .functional-desc .content-img img {
     width: 100%;
-  } */
+  }
 
   .product-action .short-about {
     padding: 3em 1em;

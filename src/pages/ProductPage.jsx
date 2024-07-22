@@ -67,7 +67,6 @@ const ProductPage = () => {
 
   // navigation
   const location = useLocation();
-  console.log(document.getElementById(location.hash))
   
   useEffect(() => {
     if (location.hash) {

@@ -3,7 +3,6 @@ import CardUserProfile from "../components/CardUserProfile";
 
 const UserFullDetails = ({ footerCard, selectedCardState, setCardList }) => {
   const detials = { ...selectedCardState[0] };
-  console.log(detials);
   return (
     <div id="user-full-detials">
       <div className="user-header">
