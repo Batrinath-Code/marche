@@ -1,7 +1,6 @@
 import { useState, useEffect } from "react";
 import { useLocation } from "react-router-dom";
 import { motion } from "framer-motion";
-import { Element } from "react-scroll";
 
 import { Layouts } from "../Layouts/Layouts";
 import "./css/aboutpage.css";
@@ -109,7 +108,6 @@ export default function AboutPage() {
   return (
     <Layouts title={"About-Page"}>
       <section className="abt-banner"></section>
-      <Element name="ourstory">
         <div id="ourstory" className="aboutCompany">
           <motion.div
             initial={{ x: -200 }}
@@ -144,9 +142,8 @@ export default function AboutPage() {
             className="abt-img"
           />
         </div>
-      </Element>
 
-      <Element name="ourpurpose">
+
         <div id="ourpurpose" className="purpose-container">
           <img
             src={`./about/bgpurpose.png`}
@@ -214,9 +211,9 @@ export default function AboutPage() {
             </div>
           </motion.div>
         </div>
-      </Element>
+  
 
-      <Element id="ourmission" name="ourmission">
+   
         <div className="aboutMission">
           <div className="abtMission-frame1">
             <div className="abtContent">
@@ -283,9 +280,9 @@ export default function AboutPage() {
             </motion.div>
           </div>
         </div>
-      </Element>
 
-      <Element name="ourmission">
+
+  
         <div id="ourvision" className="aboutVision">
           <div className="vision-frame">
             <motion.img
@@ -311,9 +308,8 @@ export default function AboutPage() {
             </motion.div>
           </div>
         </div>
-      </Element>
+ 
 
-      <Element name="ourteam">
         <div id="ourteam" className="about-team">
           <div className="team-header">
             <h2 className="team-heading">Our Team</h2>
@@ -391,7 +387,7 @@ export default function AboutPage() {
             )}
           </div>
         </div>
-      </Element>
+   
     </Layouts>
   );
 }

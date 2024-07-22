@@ -118,7 +118,7 @@
 }
 
 .testmonial-card {
-  background: url("./testimonialbg.png") center center / cover;
+  background: url("/testimonialbg.png") center center / cover;
   width: 90%;
   display: flex;
   padding: 2em;

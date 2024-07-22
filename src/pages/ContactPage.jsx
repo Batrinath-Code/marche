@@ -40,7 +40,6 @@ const ContactPage = () => {
   return (
     <Layouts title={"Contact-Page"}>
       <section className="banner">
-        {/* <img src="./contact/contactbg.jpeg" alt="contact background" /> */}
         <div className="banner-text">
           <h3>Contact us</h3>
           <p>

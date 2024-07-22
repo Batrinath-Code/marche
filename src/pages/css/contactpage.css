@@ -2,7 +2,7 @@
   width: 100%;
 }
 .banner {
-  background: url('./contact/contactbg.jpeg') center center / cover;
+  background: url('/contact/contactbg.jpeg') center center / cover;
   height: 500px;
   width: 100%;
   position: relative;
