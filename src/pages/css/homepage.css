@@ -81,6 +81,7 @@
   flex-direction: column;
   align-items: center;
   padding: 80px 64px;
+  margin:8em 0;
   color: white;
   text-align: center;
   overflow: hidden;
@@ -131,7 +132,7 @@
 
 .home-our-team .team-cards-container {
   display: flex;
-  width: 1440px;
+ 
   padding: 10px;
   align-items: center;
   justify-content: center;

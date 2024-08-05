@@ -170,6 +170,113 @@ export default function HomePage() {
         </div>
       </div>
 
+      <div className="home-our-team">
+        <video autoPlay muted loop className="background-video">
+          <source src={`./home/background-video.mp4`} type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+        <div className="overlay">
+          <div className="team-header">
+            <h2 className="team-heading">Marche’s Values</h2>
+            <p className="team-paragraph">
+              At the heart of our mission, our values guide us in every step.
+              Discover the principles that drive our commitment to improving
+              lives globally
+            </p>
+          </div>
+
+          <div className="team-cards-container">
+            <div className="team-cards">
+              <motion.div
+                initial={{ x: -100, y: 100 }}
+                whileInView={{ x: 0, y: 0 }}
+                transition={{ delay: 0.3, duration: 0.5 }}
+                className="team-card"
+              >
+                <div className="team-icon-container">
+                  <img
+                    src={`./money.png`}
+                    alt="Team Icon"
+                    className="team-icon"
+                  />
+                </div>
+
+                <div className="card-content">
+                  <h3 className="card-heading">Innovation</h3>
+                  <p className="card-paragraph">
+                    Pushing Boundaries, Bridging Health Disparities
+                  </p>
+                </div>
+              </motion.div>
+
+              <motion.div
+                initial={{ x: -100, y: 100 }}
+                whileInView={{ x: 0, y: 0 }}
+                transition={{ delay: 0.3, duration: 0.5 }}
+                className="team-card"
+              >
+                <div className="team-icon-container">
+                  <img
+                    src={`./Collab.png`}
+                    alt="Team Icon"
+                    className="team-icon"
+                  />
+                </div>
+
+                <div className="card-content">
+                  <h3 className="card-heading">Collaboration</h3>
+                  <p className="card-paragraph">
+                    Unite diverse expertise to create impactful innovations
+                  </p>
+                </div>
+              </motion.div>
+
+              <motion.div
+                initial={{ x: -100, y: 100 }}
+                whileInView={{ x: 0, y: 0 }}
+                transition={{ delay: 0.3, duration: 0.5 }}
+                className="team-card"
+              >
+                <div className="team-icon-container">
+                  <img
+                    src={`./Access.png`}
+                    alt="Team Icon"
+                    className="team-icon"
+                  />
+                </div>
+
+                <div className="card-content">
+                  <h3 className="card-heading">Accessibility</h3>
+                  <p className="card-paragraph">
+                    Bringing Modern Healthcare to Everyone
+                  </p>
+                </div>
+              </motion.div>
+              <motion.div
+                initial={{ x: -100, y: 100 }}
+                whileInView={{ x: 0, y: 0 }}
+                transition={{ delay: 0.3, duration: 0.5 }}
+                className="team-card"
+              >
+                <div className="team-icon-container">
+                  <img
+                    src={`./Compassion.png`}
+                    alt="Team Icon"
+                    className="team-icon"
+                  />
+                </div>
+
+                <div className="card-content">
+                  <h3 className="card-heading">Compassion</h3>
+                  <p className="card-paragraph">
+                    Empathy at Our Core Enhancing Lives Worldwide
+                  </p>
+                </div>
+              </motion.div>
+            </div>
+          </div>
+        </div>
+      </div>
 
       {/* testmonial */}
       <div className="testmonialslide">

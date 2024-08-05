@@ -3,6 +3,7 @@ import "./css/productpage.css";
 import { Layouts } from "../Layouts/Layouts";
 import blogImg from "../assets/products/card-img.png";
 import function2Img from "../assets/products/function2-img.png";
+import functionl0Img from "../assets/products/functional-0.png";
 import functionl1Img from "../assets/products/functional-1.png";
 import functionl2Img from "../assets/products/functional-2.png";
 import functionl3Img from "../assets/products/functional-3.png";
@@ -156,6 +157,8 @@ const ProductPage = () => {
           </div>
         </div>
 
+        
+
         <div className="functional functional-2">
           <div className="func-header">
             <h2>How functional</h2>
@@ -173,7 +176,24 @@ const ProductPage = () => {
             </div>
           </div>
         </div>
-
+        <motion.div initial={{opacity:0,x:-100}} whileInView={{opacity:1,x:0}} transition={{delay:0.7,duration:0.7}}  className="functional-desc">
+          <div className="content-img">
+            <img src={functionl0Img} alt="functionl1Img" />
+          </div>
+          <div className="content">
+            <h2>Tell the visitor what the company name is about</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Suspendisse varius enim in eros elementum tristique. Duis cursus,
+              mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam
+              libero vitae erat.dolor interdum nulla, ut commodo diam libero
+              vitae erat.dolor interdum nulla, ut commodo diam libero vitae
+              erat.dolor interdum nulla, ut commodo diam libero vitae erat.dolor
+              interdum nulla, ut commodo diam libero vitae erat.dolor interdum
+              nulla, ut commodo diam libero vitae erat.
+            </p>
+          </div>
+        </motion.div>
         <motion.div initial={{opacity:0,x:100}} whileInView={{opacity:1,x:0}} transition={{delay:0.7,duration:0.7}}  className="functional-desc">
           <div className="content">
             <h2>Tell the visitor what the company name is about</h2>
